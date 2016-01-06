@@ -33,7 +33,7 @@
         <!--Job-->
         <scene sceneID="dSG-r0-vta">
             <objects>
-                <viewController title="Job" id="mQL-Ep-5t5" sceneMemberID="viewController">
+                <viewController title="Job" id="mQL-Ep-5t5" customClass="JobViewContoller" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zW1-lP-c2Z"/>
                         <viewControllerLayoutGuide type="bottom" id="7Qg-IJ-4UU"/>
@@ -58,7 +58,7 @@
         <!--Anime-->
         <scene sceneID="ocT-vo-zhs">
             <objects>
-                <viewController title="Anime" id="J5M-S9-glE" sceneMemberID="viewController">
+                <viewController title="Anime" id="J5M-S9-glE" customClass="AnimeViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wQ8-a9-kTn"/>
                         <viewControllerLayoutGuide type="bottom" id="Ehw-Gt-ixU"/>
@@ -83,7 +83,7 @@
         <!--Kpop-->
         <scene sceneID="zZY-Kv-Tw0">
             <objects>
-                <viewController title="Kpop" id="uUH-nF-TQc" sceneMemberID="viewController">
+                <viewController title="Kpop" id="uUH-nF-TQc" customClass="KpopViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AzM-Ez-M84"/>
                         <viewControllerLayoutGuide type="bottom" id="x7b-ja-5Tt"/>
