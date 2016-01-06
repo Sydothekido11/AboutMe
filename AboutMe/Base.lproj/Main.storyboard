@@ -18,12 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvP-gh-eto">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="174" y="572" width="66" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Kpop">
+                                    <color key="titleColor" red="0.7697743869" green="0.59259788329999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="changeToKpop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Xh-NB-xib"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bts" translatesAutoresizingMaskIntoConstraints="NO" id="iiq-o0-8YT">
+                                <rect key="frame" x="78" y="216" width="259" height="193"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -49,12 +55,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5od-Z9-XeS">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="158" y="555" width="98" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.93969411790000001" blue="0.65772347350000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="changetoHome:" destination="mQL-Ep-5t5" eventType="touchUpInside" id="3Bz-Sj-Tyo"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowabunga-bay" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-xJ-2Aj">
+                                <rect key="frame" x="92" y="203" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46058206672461022" blue="0.46568662624191726" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -80,8 +92,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39j-c2-uJO">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="162" y="562" width="91" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Job">
+                                    <color key="titleColor" red="0.61890320489999995" green="1" blue="0.88012695649999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="changeToJob:" destination="J5M-S9-glE" eventType="touchUpInside" id="NG1-3k-8il"/>
                                 </connections>
@@ -111,14 +126,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-gG-yBq">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="159" y="575" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Anime">
+                                    <color key="titleColor" red="1" green="0.46058206670000001" blue="0.46568662620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="changeToAnime:" destination="uUH-nF-TQc" eventType="touchUpInside" id="1Wb-Ks-cMM"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.47625805220414641" green="1" blue="0.98543055033727101" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.61890320488346329" green="1" blue="0.88012695648434547" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -130,4 +148,8 @@
             <point key="canvasLocation" x="706" y="8"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bts" width="1000" height="750"/>
+        <image name="cowabunga-bay" width="708" height="433"/>
+    </resources>
 </document>
