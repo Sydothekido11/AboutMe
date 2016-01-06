@@ -13,6 +13,9 @@
 		16D965A41C3D9AB8006A41B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D965A31C3D9AB8006A41B6 /* Assets.xcassets */; };
 		16D965A71C3D9AB8006A41B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D965A51C3D9AB8006A41B6 /* LaunchScreen.storyboard */; };
 		16D965B21C3D9AB8006A41B6 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D965B11C3D9AB8006A41B6 /* AboutMeTests.swift */; };
+		16D965BF1C3D9E8D006A41B6 /* KpopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D965BE1C3D9E8D006A41B6 /* KpopViewController.swift */; };
+		16D965C11C3D9EA7006A41B6 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D965C01C3D9EA7006A41B6 /* JobViewController.swift */; };
+		16D965C31C3D9F44006A41B6 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D965C21C3D9F44006A41B6 /* AnimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		16D965AD1C3D9AB8006A41B6 /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D965B11C3D9AB8006A41B6 /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		16D965B31C3D9AB8006A41B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D965BE1C3D9E8D006A41B6 /* KpopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KpopViewController.swift; sourceTree = "<group>"; };
+		16D965C01C3D9EA7006A41B6 /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		16D965C21C3D9F44006A41B6 /* AnimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				16D9659C1C3D9AB8006A41B6 /* AppDelegate.swift */,
 				16D9659E1C3D9AB8006A41B6 /* ViewController.swift */,
+				16D965BE1C3D9E8D006A41B6 /* KpopViewController.swift */,
+				16D965C01C3D9EA7006A41B6 /* JobViewController.swift */,
+				16D965C21C3D9F44006A41B6 /* AnimeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D965C11C3D9EA7006A41B6 /* JobViewController.swift in Sources */,
+				16D965C31C3D9F44006A41B6 /* AnimeViewController.swift in Sources */,
 				16D9659F1C3D9AB8006A41B6 /* ViewController.swift in Sources */,
 				16D9659D1C3D9AB8006A41B6 /* AppDelegate.swift in Sources */,
+				16D965BF1C3D9E8D006A41B6 /* KpopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
