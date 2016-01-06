@@ -20,6 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvP-gh-eto">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToKpop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Xh-NB-xib"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
@@ -48,6 +51,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5od-Z9-XeS">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changetoHome:" destination="mQL-Ep-5t5" eventType="touchUpInside" id="3Bz-Sj-Tyo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46058206672461022" blue="0.46568662624191726" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,6 +82,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39j-c2-uJO">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToJob:" destination="J5M-S9-glE" eventType="touchUpInside" id="NG1-3k-8il"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76977438693858757" green="0.59259788325700669" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,6 +113,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-gG-yBq">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="uUH-nF-TQc" eventType="touchUpInside" id="1Wb-Ks-cMM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47625805220414641" green="1" blue="0.98543055033727101" alpha="1" colorSpace="calibratedRGB"/>
