@@ -25,6 +25,9 @@
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="uUH-nF-TQc" kind="presentation" identifier="toKpop" id="HGT-Qx-SWY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,10 +53,13 @@
                         <color key="backgroundColor" red="1" green="0.46058206672461022" blue="0.46568662624191726" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="V9O-Le-CFy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ics-gl-RZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="66" y="808"/>
+            <point key="canvasLocation" x="66" y="924"/>
         </scene>
         <!--Anime-->
         <scene sceneID="ocT-vo-zhs">
@@ -75,10 +81,13 @@
                         <color key="backgroundColor" red="0.76977438693858757" green="0.59259788325700669" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="mQL-Ep-5t5" kind="presentation" identifier="toJob" id="FSR-BC-yM5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhg-X6-a4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="706" y="808"/>
+            <point key="canvasLocation" x="706" y="924"/>
         </scene>
         <!--Kpop-->
         <scene sceneID="zZY-Kv-Tw0">
@@ -100,6 +109,9 @@
                         <color key="backgroundColor" red="0.47625805220414641" green="1" blue="0.98543055033727101" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="J5M-S9-glE" kind="presentation" identifier="toAnime" id="bzJ-rI-Eg2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cCd-3r-ICR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
