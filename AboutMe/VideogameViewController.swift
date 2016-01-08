@@ -1,30 +1,32 @@
 //
-//  JobViewController.swift
+//  VideogameViewController.swift
 //  AboutMe
 //
-//  Created by Nemelka, Sydney on 1/6/16.
+//  Created by Nemelka, Sydney on 1/8/16.
 //  Copyright © 2016 Nemelka, Sydney. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class JobViewContoller :UIViewController
+class VideogameViewController : UIViewController
 {
     
-    @IBAction func changeToVideogames(sender: UIButton)
+   
+    @IBAction func changeToHome(sender: AnyObject)
     {
-        performSegueWithIdentifier("toVideogames", sender : sender)
+        performSegueWithIdentifier("toHome", sender : sender)
     }
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
     }
 }

@@ -27,9 +27,6 @@
                                     <action selector="changeToKpop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Xh-NB-xib"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bts" translatesAutoresizingMaskIntoConstraints="NO" id="iiq-o0-8YT">
-                                <rect key="frame" x="78" y="216" width="259" height="193"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -57,7 +54,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5od-Z9-XeS">
                                 <rect key="frame" x="158" y="555" width="98" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <color key="titleColor" red="1" green="0.93969411790000001" blue="0.65772347350000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -65,19 +62,66 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowabunga-bay" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-xJ-2Aj">
-                                <rect key="frame" x="92" y="203" width="240" height="128"/>
+                                <rect key="frame" x="75" y="247" width="264" height="171"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-eb-6ku">
+                                <rect key="frame" x="115" y="563" width="184" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Video Games">
+                                    <color key="titleColor" red="0.61890320489999995" green="1" blue="0.88012695649999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToVideogames:" destination="mQL-Ep-5t5" eventType="touchUpInside" id="kwk-ee-Ren"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46058206672461022" blue="0.46568662624191726" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="V9O-Le-CFy"/>
+                        <segue destination="y6c-pF-bEK" kind="presentation" identifier="toVideogames" id="OAb-fP-tAc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ics-gl-RZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="66" y="924"/>
+        </scene>
+        <!--Video Games-->
+        <scene sceneID="04h-zd-vmB">
+            <objects>
+                <viewController title="Video Games" id="y6c-pF-bEK" customClass="VideogameViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I9F-id-s3d"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rag-ch-adk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tCf-kp-pIq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvF-XS-4KH">
+                                <rect key="frame" x="148" y="555" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.56149471784280003" green="0.67920106429124005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToHome:" destination="y6c-pF-bEK" eventType="touchUpInside" id="M7F-Vl-bt7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lP1-qr-hda">
+                                <rect key="frame" x="186" y="408" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.76341497308012174" blue="0.45381018852909127" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ags-RA-hJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-464" y="924"/>
         </scene>
         <!--Anime-->
         <scene sceneID="ocT-vo-zhs">
@@ -101,6 +145,9 @@
                                     <action selector="changeToJob:" destination="J5M-S9-glE" eventType="touchUpInside" id="NG1-3k-8il"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tokyo ghoul" translatesAutoresizingMaskIntoConstraints="NO" id="0el-aJ-PCs">
+                                <rect key="frame" x="62" y="256" width="290" height="223"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.76977438693858757" green="0.59259788325700669" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -135,6 +182,9 @@
                                     <action selector="changeToAnime:" destination="uUH-nF-TQc" eventType="touchUpInside" id="1Wb-Ks-cMM"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bts" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-0n-Und">
+                                <rect key="frame" x="63" y="202" width="288" height="225"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.61890320488346329" green="1" blue="0.88012695648434547" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -151,5 +201,6 @@
     <resources>
         <image name="bts" width="1000" height="750"/>
         <image name="cowabunga-bay" width="708" height="433"/>
+        <image name="tokyo ghoul" width="900" height="582"/>
     </resources>
 </document>

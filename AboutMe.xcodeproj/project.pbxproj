@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16AA3C711C403DC600E5E6F6 /* VideogameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AA3C701C403DC600E5E6F6 /* VideogameViewController.swift */; };
 		16D3BBDA1C3DB2FA001AD1DF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D3BBD91C3DB2FA001AD1DF /* Media.xcassets */; };
 		16D9659D1C3D9AB8006A41B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9659C1C3D9AB8006A41B6 /* AppDelegate.swift */; };
 		16D9659F1C3D9AB8006A41B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9659E1C3D9AB8006A41B6 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16AA3C701C403DC600E5E6F6 /* VideogameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideogameViewController.swift; sourceTree = "<group>"; };
 		16D3BBD91C3DB2FA001AD1DF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		16D965991C3D9AB8006A41B6 /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D9659C1C3D9AB8006A41B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				16D965BE1C3D9E8D006A41B6 /* KpopViewController.swift */,
 				16D965C01C3D9EA7006A41B6 /* JobViewController.swift */,
 				16D965C21C3D9F44006A41B6 /* AnimeViewController.swift */,
+				16AA3C701C403DC600E5E6F6 /* VideogameViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AA3C711C403DC600E5E6F6 /* VideogameViewController.swift in Sources */,
 				16D965C11C3D9EA7006A41B6 /* JobViewController.swift in Sources */,
 				16D965C31C3D9F44006A41B6 /* AnimeViewController.swift in Sources */,
 				16D9659F1C3D9AB8006A41B6 /* ViewController.swift in Sources */,
