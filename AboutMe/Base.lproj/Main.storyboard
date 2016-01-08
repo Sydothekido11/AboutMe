@@ -18,15 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvP-gh-eto">
-                                <rect key="frame" x="174" y="572" width="66" height="30"/>
+                                <rect key="frame" x="153" y="573" width="109" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Kpop">
+                                <state key="normal" title="To Kpop">
                                     <color key="titleColor" red="0.7697743869" green="0.59259788329999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeToKpop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Xh-NB-xib"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Sydo!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-tw-xih">
+                                <rect key="frame" x="130" y="42" width="168" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -62,18 +68,31 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowabunga-bay" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-xJ-2Aj">
-                                <rect key="frame" x="75" y="247" width="264" height="171"/>
+                                <rect key="frame" x="75" y="117" width="264" height="171"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-eb-6ku">
-                                <rect key="frame" x="115" y="563" width="184" height="30"/>
+                                <rect key="frame" x="104" y="599" width="207" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Video Games">
+                                <state key="normal" title="To Video Games">
                                     <color key="titleColor" red="0.61890320489999995" green="1" blue="0.88012695649999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeToVideogames:" destination="mQL-Ep-5t5" eventType="touchUpInside" id="kwk-ee-Ren"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tb-aY-Pzx">
+                                <rect key="frame" x="45" y="302" width="325" height="258"/>
+                                <string key="text">I work at Cowabunga Bay in Draper. I am a lifeguard there, which means I watch the lazy river and manage the waterslides. It certainly isn’t the most exciting job in the world but you get tan and good money. My job really helped me come out of my shell. I’ve always been an extremely shy and  self-conscious person through out my entire life, but taking up this summer job made me socialize with other people and its really been a life saver.  (pun intended)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cowabunga Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JL7-3J-jh1">
+                                <rect key="frame" x="145" y="38" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46058206672461022" blue="0.46568662624191726" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -99,20 +118,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvF-XS-4KH">
-                                <rect key="frame" x="148" y="555" width="118" height="30"/>
+                                <rect key="frame" x="148" y="593" width="118" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Home">
+                                <state key="normal" title="To Home">
                                     <color key="titleColor" red="0.56149471784280003" green="0.67920106429124005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="changeToHome:" destination="y6c-pF-bEK" eventType="touchUpInside" id="M7F-Vl-bt7"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lP1-qr-hda">
-                                <rect key="frame" x="186" y="408" width="42" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ninja-Gaiden" translatesAutoresizingMaskIntoConstraints="NO" id="Q5q-cl-fCf">
+                                <rect key="frame" x="50" y="96" width="314" height="187"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cb6-oS-QsU">
+                                <rect key="frame" x="75" y="311" width="265" height="254"/>
+                                <string key="text">Video games are the reason I decided to get into computer programming. I started playing them when I was 6 and would watch my dad play Ocarina of Time or Majoras Mask and finally when I turned 8 the first game I played and completed was Ninja Gaiden (pictured below). My favorites are: Legend of Zelda, God of War, Dead Space, Ninja Gaiden, Dishonored and Bioshock.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myo-N9-Sh9">
+                                <rect key="frame" x="148" y="35" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" red="0.56149471780000004" green="0.67920106430000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76341497308012174" blue="0.45381018852909127" alpha="1" colorSpace="calibratedRGB"/>
@@ -136,9 +165,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39j-c2-uJO">
-                                <rect key="frame" x="162" y="562" width="91" height="30"/>
+                                <rect key="frame" x="162" y="613" width="91" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Job">
+                                <state key="normal" title="To Job">
                                     <color key="titleColor" red="0.61890320489999995" green="1" blue="0.88012695649999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -146,8 +175,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tokyo ghoul" translatesAutoresizingMaskIntoConstraints="NO" id="0el-aJ-PCs">
-                                <rect key="frame" x="62" y="256" width="290" height="223"/>
+                                <rect key="frame" x="62" y="136" width="290" height="223"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtS-Sp-Vea">
+                                <rect key="frame" x="80" y="380" width="254" height="212"/>
+                                <string key="text">Anime is a huge part of my life now. The only thing I watch is anime(or the occasional Korean drama). It has influenced me to take on learning Japanese and to study abroad in Japan during my 2nd year of college. My favorite animes are: Tokyo Ghoul, Durarara, Your Lie in April, and Kill La Kill. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrE-Ql-Z6G">
+                                <rect key="frame" x="177" y="47" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.76977438693858757" green="0.59259788325700669" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -173,9 +215,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-gG-yBq">
-                                <rect key="frame" x="159" y="575" width="97" height="30"/>
+                                <rect key="frame" x="142" y="602" width="130" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Anime">
+                                <state key="normal" title="To Anime">
                                     <color key="titleColor" red="1" green="0.46058206670000001" blue="0.46568662620000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -183,8 +225,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bts" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-0n-Und">
-                                <rect key="frame" x="63" y="202" width="288" height="225"/>
+                                <rect key="frame" x="63" y="70" width="288" height="225"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cm2-97-yOc">
+                                <rect key="frame" x="92" y="347" width="231" height="216"/>
+                                <string key="text">Korean pop is the only thing I listen to, it was formerly heavy metal. I don’t think you need to understand what they are saying to enjoy the music; I think the message of the song is displayed well enough through the emotion and beat. My favorite groups are: BIGBANG, SHINee, BTS, EXO, Block B, MBLAQ and 2ne1.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kpop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lT-3D-i7S">
+                                <rect key="frame" x="186" y="28" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.61890320488346329" green="1" blue="0.88012695648434547" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -199,6 +254,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Ninja-Gaiden" width="555" height="250"/>
         <image name="bts" width="1000" height="750"/>
         <image name="cowabunga-bay" width="708" height="433"/>
         <image name="tokyo ghoul" width="900" height="582"/>
