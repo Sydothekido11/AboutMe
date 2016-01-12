@@ -33,6 +33,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3906" translatesAutoresizingMaskIntoConstraints="NO" id="Qse-Mx-LFh">
+                                <rect key="frame" x="94" y="177" width="240" height="335"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93969411791329205" blue="0.65772347354843108" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -214,16 +217,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-gG-yBq">
-                                <rect key="frame" x="142" y="602" width="130" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="To Anime">
-                                    <color key="titleColor" red="1" green="0.46058206670000001" blue="0.46568662620000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="changeToAnime:" destination="uUH-nF-TQc" eventType="touchUpInside" id="1Wb-Ks-cMM"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bts" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-0n-Und">
                                 <rect key="frame" x="63" y="70" width="288" height="225"/>
                             </imageView>
@@ -240,6 +233,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-gG-yBq">
+                                <rect key="frame" x="142" y="615" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="To Anime">
+                                    <color key="titleColor" red="1" green="0.46058206670000001" blue="0.46568662620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeToAnime:" destination="uUH-nF-TQc" eventType="touchUpInside" id="1Wb-Ks-cMM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61890320488346329" green="1" blue="0.88012695648434547" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -254,6 +257,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_3906" width="480" height="640"/>
         <image name="Ninja-Gaiden" width="555" height="250"/>
         <image name="bts" width="1000" height="750"/>
         <image name="cowabunga-bay" width="708" height="433"/>
